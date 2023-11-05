@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a70e2f289b51914e975eee1fc750cd1
+guid: 1c72e5c8ab19ae544bd867cea817dfcf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 3
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,463 +123,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: float-float-dx-enemies_0
+      name: float-float-dx-ballons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 8
-        height: 16
+        x: 3
+        y: 127
+        width: 12
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a109fd6ed27582a4c9f54efb36e1ed86
-      internalID: 1646942784
+      spriteID: 8dd2edd2c19fddc40ba39a0a77eca4b2
+      internalID: 443313827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_1
+      name: float-float-dx-ballons_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 32
-        width: 8
-        height: 16
+        x: 17
+        y: 127
+        width: 12
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89f1d6cb1e54a5344946e8629b77f0d5
-      internalID: -1092346268
+      spriteID: 301bf29b1e2946f448dd803687bfd945
+      internalID: -1724395782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_2
+      name: float-float-dx-ballons_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1092e5ddc60ab489f62a62268ef5ec
+      internalID: -814164678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 127
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d604ef37ebb30f34d9359b819cd73347
+      internalID: 1231052439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 102
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e341f7b46236645abee648ba1bace0
+      internalID: -427335290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 102
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cb95ef4b30b90489dfe46b61e0ba5c
+      internalID: -785694158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 102
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d5fec25b2c16842a1ec66e6ffa386a
+      internalID: -610330574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 102
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784c052fbbbac234c9345f9e1933cdc7
+      internalID: -1956404387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 77
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6648a82f3b46fa6499e68e8d8fb973fb
+      internalID: -1968130664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 77
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d442a7bf322c4d468357dfb4cfb7adf
+      internalID: -1720214299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 77
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554b4fd056361fa4694cf7a7f0c56fbf
+      internalID: 1508395781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 77
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fc56dea8e5cf940aa0d3b54f132f61
+      internalID: 1928284706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 52
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e894a1588024674ea3afd23d26f8a25
+      internalID: 1464309126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 52
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ac18b767ae464e9042845441a13cb
+      internalID: -560125989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 52
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9597fb7bf81df1c49bb2bf0aaf35020c
+      internalID: 228073221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 52
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f82dee29288af49ac4d73c558909b9
+      internalID: -766894090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 27
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accd6f06a7cc79941ae13df60ee368e9
+      internalID: 844763717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 27
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258e939c2c0a52448973c36099f590e4
+      internalID: -1453862263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 27
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a130503cc06f54690e0c53cb99c727
+      internalID: 113092481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 27
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee2452c4f356504c83967cb40bf8487
+      internalID: -1726079122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd00682bd9a6ab647b8af475dae0430a
+      internalID: 2085488170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-ballons_21
       rect:
         serializedVersion: 2
         x: 18
-        y: 35
-        width: 8
-        height: 12
+        y: 3
+        width: 12
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 834cbc1a55edf304681e0a534f2fa318
-      internalID: -464746217
+      spriteID: a3422bb5533b08141ad00f5f1e907fdd
+      internalID: -1778209517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_3
+      name: float-float-dx-ballons_22
       rect:
         serializedVersion: 2
-        x: 18
-        y: 26
-        width: 8
-        height: 8
+        x: 37
+        y: 3
+        width: 12
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33bfc27389262ac43a1d9cffc194040d
-      internalID: 307803644
+      spriteID: f2e172678828b314495d4ae21d54a115
+      internalID: 2112702318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_4
+      name: float-float-dx-ballons_23
       rect:
         serializedVersion: 2
-        x: 18
-        y: 17
-        width: 8
-        height: 7
+        x: 51
+        y: 3
+        width: 12
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 456f31c0e5db8c44384b8283d882dd5c
-      internalID: 113646992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_5
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 39
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4212d99370e42e6479a17e10a57e4bbe
-      internalID: -1422743430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_6
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 39
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aecc869e413687d4e82f768c91fd6a36
-      internalID: 352579369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_7
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 39
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa9c0056b26ecd7409f6d61cc2f16922
-      internalID: -950600716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_8
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 31
-        width: 14
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed194e3de3f14254e838fbe0a4e4621c
-      internalID: -344033836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_9
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 33
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a16682f6031ac5844810252fb62e4f4c
-      internalID: -1502582771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_10
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 17
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dff5dac652d172749a3decd2edc559f4
-      internalID: -1421344513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_11
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 17
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19ce6961444fcfa40b590b69fcfb241a
-      internalID: 1906238526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_12
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 21
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06ae6f180f99f664abb376b2ede637f8
-      internalID: -1791931716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_13
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 21
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 735b087b728ffb84cb2b00aa40bd8c42
-      internalID: 1790052292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
-        width: 16
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30f857cbf84f7364ebc3551151ef8109
-      internalID: 1883771179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d9437c7db45ae64fa1443da8b2cb338
-      internalID: -443048069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c569a8d2e8fefcc478a356bf9f9d47a9
-      internalID: -1245588896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_17
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 1
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df4376a4b818a9345a28bfadd71ba3b0
-      internalID: 54723134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_18
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 0
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc6c7df495585144d933e1853e1668ca
-      internalID: -2039702368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_19
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c16b5e125aae2444ab48e994c109e12
-      internalID: 1215802904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_20
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9c5bdb9860e73749aed2733cdaa9737
-      internalID: -1532429402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_21
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 0
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db14fe52c3b57474ea32b284852bb0fd
-      internalID: 854587483
+      spriteID: 7f175a6191e0b8043be507bf71699632
+      internalID: 95739666
       vertices: []
       indices: 
       edges: []
@@ -595,28 +637,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      float-float-dx-enemies_0: 1646942784
-      float-float-dx-enemies_1: -1092346268
-      float-float-dx-enemies_10: -1421344513
-      float-float-dx-enemies_11: 1906238526
-      float-float-dx-enemies_12: -1791931716
-      float-float-dx-enemies_13: 1790052292
-      float-float-dx-enemies_14: 1883771179
-      float-float-dx-enemies_15: -443048069
-      float-float-dx-enemies_16: -1245588896
-      float-float-dx-enemies_17: 54723134
-      float-float-dx-enemies_18: -2039702368
-      float-float-dx-enemies_19: 1215802904
-      float-float-dx-enemies_2: -464746217
-      float-float-dx-enemies_20: -1532429402
-      float-float-dx-enemies_21: 854587483
-      float-float-dx-enemies_3: 307803644
-      float-float-dx-enemies_4: 113646992
-      float-float-dx-enemies_5: -1422743430
-      float-float-dx-enemies_6: 352579369
-      float-float-dx-enemies_7: -950600716
-      float-float-dx-enemies_8: -344033836
-      float-float-dx-enemies_9: -1502582771
+      float-float-dx-ballons_0: 877205885
+      float-float-dx-ballons_1: 443313827
+      float-float-dx-ballons_10: -1720214299
+      float-float-dx-ballons_11: 1508395781
+      float-float-dx-ballons_12: 1928284706
+      float-float-dx-ballons_13: 1464309126
+      float-float-dx-ballons_14: -560125989
+      float-float-dx-ballons_15: 228073221
+      float-float-dx-ballons_16: -766894090
+      float-float-dx-ballons_17: 844763717
+      float-float-dx-ballons_18: -1453862263
+      float-float-dx-ballons_19: 113092481
+      float-float-dx-ballons_2: -1724395782
+      float-float-dx-ballons_20: -1726079122
+      float-float-dx-ballons_21: 2085488170
+      float-float-dx-ballons_22: -1778209517
+      float-float-dx-ballons_23: 2112702318
+      float-float-dx-ballons_3: -814164678
+      float-float-dx-ballons_4: 1231052439
+      float-float-dx-ballons_5: -427335290
+      float-float-dx-ballons_6: -785694158
+      float-float-dx-ballons_7: -610330574
+      float-float-dx-ballons_8: -1956404387
+      float-float-dx-ballons_9: -1968130664
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

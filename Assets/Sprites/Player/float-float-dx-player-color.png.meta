@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a70e2f289b51914e975eee1fc750cd1
+guid: fde8a549fcd01074aa4a632b3c42c679
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 3
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,463 +123,400 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: float-float-dx-enemies_0
+      name: float-float-dx-player-color_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 8
-        height: 16
+        x: 36
+        y: 45
+        width: 21
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a109fd6ed27582a4c9f54efb36e1ed86
-      internalID: 1646942784
+      spriteID: 64861822d0996fe45b078cf145c807b1
+      internalID: -334431682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_1
+      name: float-float-dx-player-color_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 32
-        width: 8
-        height: 16
+        x: 57
+        y: 45
+        width: 21
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89f1d6cb1e54a5344946e8629b77f0d5
-      internalID: -1092346268
+      spriteID: 1e8f87bd77e37334f9cd9d4060b6a365
+      internalID: -1625745297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_2
+      name: float-float-dx-player-color_2
       rect:
         serializedVersion: 2
-        x: 18
-        y: 35
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 834cbc1a55edf304681e0a534f2fa318
-      internalID: -464746217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_3
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 26
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33bfc27389262ac43a1d9cffc194040d
-      internalID: 307803644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_4
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 17
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 456f31c0e5db8c44384b8283d882dd5c
-      internalID: 113646992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_5
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 39
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4212d99370e42e6479a17e10a57e4bbe
-      internalID: -1422743430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_6
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 39
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aecc869e413687d4e82f768c91fd6a36
-      internalID: 352579369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_7
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 39
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa9c0056b26ecd7409f6d61cc2f16922
-      internalID: -950600716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_8
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 31
-        width: 14
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed194e3de3f14254e838fbe0a4e4621c
-      internalID: -344033836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_9
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 33
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a16682f6031ac5844810252fb62e4f4c
-      internalID: -1502582771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_10
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 17
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dff5dac652d172749a3decd2edc559f4
-      internalID: -1421344513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_11
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 17
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19ce6961444fcfa40b590b69fcfb241a
-      internalID: 1906238526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_12
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 21
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06ae6f180f99f664abb376b2ede637f8
-      internalID: -1791931716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_13
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 21
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 735b087b728ffb84cb2b00aa40bd8c42
-      internalID: 1790052292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: float-float-dx-enemies_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
+        x: 80
+        y: 45
         width: 16
-        height: 7
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30f857cbf84f7364ebc3551151ef8109
-      internalID: 1883771179
+      spriteID: 7a7cf0111d320fe4685e97e6293fcd30
+      internalID: 1381231558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_15
+      name: float-float-dx-player-color_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
+        x: 97
+        y: 45
         width: 16
-        height: 7
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d9437c7db45ae64fa1443da8b2cb338
-      internalID: -443048069
+      spriteID: 1b21c9da1c9afd14ea6bc87450336d22
+      internalID: 1396424127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_16
+      name: float-float-dx-player-color_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 8
+        x: 114
+        y: 45
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45729856fa754a341b7b9bdc5fca9b47
+      internalID: 1440649651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 45
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4e6980ab637d64599dd547659b9136
+      internalID: -1186352551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 45
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe00db737f5669408275603d3923dca
+      internalID: 1994771323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 45
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0490bbf40f0ec1469e9acac562fe015
+      internalID: 630404128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1967347bab21e4940b9a88c353508a29
+      internalID: 207306298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 4
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259e95a25aeb251458b5ee1e19766690
+      internalID: -494344417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3
+        width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c569a8d2e8fefcc478a356bf9f9d47a9
-      internalID: -1245588896
+      spriteID: f904c650bfeb3f3498f76195987f0d3e
+      internalID: -134586684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_17
+      name: float-float-dx-player-color_11
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1
-        width: 8
-        height: 14
+        x: 110
+        y: 3
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df4376a4b818a9345a28bfadd71ba3b0
-      internalID: 54723134
+      spriteID: 4b2fbfdb91f9fc04599a0093f20c21f0
+      internalID: -927245389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_18
+      name: float-float-dx-player-color_12
       rect:
         serializedVersion: 2
-        x: 19
-        y: 0
+        x: 3
+        y: 47
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07c8382b569b5d42b38c455e7691b6d
+      internalID: 480951861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0ee4b5ff3b00f46a2f83c42bd365b3
+      internalID: 1630857997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_14
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 46
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f15a73d58be95347888b08c70b86e86
+      internalID: 1520492884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: float-float-dx-player-color_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 46
         width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc6c7df495585144d933e1853e1668ca
-      internalID: -2039702368
+      spriteID: 3ebb2c2cbc30008419f627e186e63761
+      internalID: -1764231551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_19
+      name: float-float-dx-player-color_16
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 14
+        x: 218
+        y: 46
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c16b5e125aae2444ab48e994c109e12
-      internalID: 1215802904
+      spriteID: fd2c03ece91eb454fa7a20298c7e3413
+      internalID: -1046354234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_20
+      name: float-float-dx-player-color_17
       rect:
         serializedVersion: 2
-        x: 65
-        y: 0
-        width: 15
-        height: 16
+        x: 62
+        y: 3
+        width: 13
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9c5bdb9860e73749aed2733cdaa9737
-      internalID: -1532429402
+      spriteID: e929d5201859c0148ad16017cc5dadc1
+      internalID: -1486226661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: float-float-dx-enemies_21
+      name: float-float-dx-player-color_18
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 15
+        x: 94
+        y: 3
+        width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db14fe52c3b57474ea32b284852bb0fd
-      internalID: 854587483
+      spriteID: b19c6bddd14898544a20ddc9a70285ed
+      internalID: -1187156196
       vertices: []
       indices: 
       edges: []
@@ -595,28 +532,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      float-float-dx-enemies_0: 1646942784
-      float-float-dx-enemies_1: -1092346268
-      float-float-dx-enemies_10: -1421344513
-      float-float-dx-enemies_11: 1906238526
-      float-float-dx-enemies_12: -1791931716
-      float-float-dx-enemies_13: 1790052292
-      float-float-dx-enemies_14: 1883771179
-      float-float-dx-enemies_15: -443048069
-      float-float-dx-enemies_16: -1245588896
-      float-float-dx-enemies_17: 54723134
-      float-float-dx-enemies_18: -2039702368
-      float-float-dx-enemies_19: 1215802904
-      float-float-dx-enemies_2: -464746217
-      float-float-dx-enemies_20: -1532429402
-      float-float-dx-enemies_21: 854587483
-      float-float-dx-enemies_3: 307803644
-      float-float-dx-enemies_4: 113646992
-      float-float-dx-enemies_5: -1422743430
-      float-float-dx-enemies_6: 352579369
-      float-float-dx-enemies_7: -950600716
-      float-float-dx-enemies_8: -344033836
-      float-float-dx-enemies_9: -1502582771
+      float-float-dx-player-color_0: -334431682
+      float-float-dx-player-color_1: -1625745297
+      float-float-dx-player-color_10: -134586684
+      float-float-dx-player-color_11: -927245389
+      float-float-dx-player-color_12: 480951861
+      float-float-dx-player-color_13: 1630857997
+      float-float-dx-player-color_14: 1520492884
+      float-float-dx-player-color_15: -1764231551
+      float-float-dx-player-color_16: -1046354234
+      float-float-dx-player-color_17: -1486226661
+      float-float-dx-player-color_18: -1187156196
+      float-float-dx-player-color_2: 1381231558
+      float-float-dx-player-color_3: 1396424127
+      float-float-dx-player-color_4: 1440649651
+      float-float-dx-player-color_5: -1186352551
+      float-float-dx-player-color_6: 1994771323
+      float-float-dx-player-color_7: 630404128
+      float-float-dx-player-color_8: 207306298
+      float-float-dx-player-color_9: -494344417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
