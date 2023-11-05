@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         speed = 5f;
-        verticalForce = 600f;
+        verticalForce = 800f;
         limitRangeX = 9f;
         isFacingRight = true;
     }
