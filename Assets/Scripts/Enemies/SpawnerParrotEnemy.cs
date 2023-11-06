@@ -5,18 +5,27 @@ using UnityEngine;
 
 public class SpawnerParrotEnemy : MonoBehaviour
 {
-    private float speed;
-    private Vector3[] posiciones;
-    private ParrotEnemy parrot;
+
+    private float speed;// velocidad de movimiento del spawner
+    private Vector3[] posiciones;// posiciones que marcan el rango de movimiento del Spawner 
+    private ParrotEnemy parrot;//objeto parrot
+
+    private float tiempoEspera;// tiempo espera para InvokeRepeating
+    private float tiempoIntervalo; // tiempo intervalo para InvokeRepeating
+
     // Start is called before the first frame update
     void Start()
     {
-        speed = 1f;
-        ObtenerPutosPosicion();
-        StartCoroutine("CorrutinaMoverNido");
-        StartCoroutine("CorrutinaLoros");
+        speed = 1f;//velocidad de movimiento del spawner en 1
+        ObtenerPutosPosicion();// se obtiene la posicino actual del spawner
+        StartCoroutine("CorrutinaMoverNido");//corrutina para el movimiento del generador de parrots
+
+        tiempoEspera = 1f;
+        tiempoIntervalo = 4f;
+        InvokeRepeating("CreateParrot", tiempoEspera, tiempoIntervalo);// metodo InvokeRepeating para generar Parrots cada 4seg
     }
 
+    // corrutina para el movimiento en dos puntos del spawner de parrots
     IEnumerator CorrutinaMoverNido()
     {
         int i = 1;
@@ -33,23 +42,19 @@ public class SpawnerParrotEnemy : MonoBehaviour
             {
                 i++;
             }
-            else{
+            else
+            {
                 i = 0;
             }
             nuevaPosicion = new Vector3(transform.position.x, posiciones[i].y, 0);
         }
     }
-    IEnumerator CorrutinaLoros(){
-        CreateParrot();
-        yield return new WaitForSeconds(3);
-        CreateParrot();
-        yield return new WaitForSeconds(7);
-        StartCoroutine("CorrutinaLoros");
+    // metodo crea GameObjects de parrot
+    public void CreateParrot()
+    {
+        Instantiate(Resources.Load("Parrot"), transform.position, Quaternion.identity);
     }
-    public void CreateParrot(){
-        Instantiate(Resources.Load("Parrot"), transform.position,Quaternion.identity);
-    }
-
+    // metodo obtiene las posicinoes que se usan para el desplazamiento del spawner
     private void ObtenerPutosPosicion()
     {
         posiciones = new Vector3[2];
