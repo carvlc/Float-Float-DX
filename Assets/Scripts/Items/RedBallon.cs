@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class RedBallon : MonoBehaviour
 {
+
+    private void Start() {
+
+    }
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.CompareTag("Player"))
         {
-            GetComponent<SpriteRenderer>().enabled = false;// se desactiva el globo para poner animacion de explosion
-            //reproducir sonido
-            
+            Puntaje.Instance.SumarTiempo();
             // se busca el bojeto padre mediante su script y se usa el metodo que controla si hay hijos (ballons) en el nivel
             FindObjectOfType<RedBallonManager>().AllBallonsCollected();
-            Destroy(gameObject, 1f);//eliminar el objeto
+            Destroy(gameObject);//eliminar el objeto
         }
     }
 }
