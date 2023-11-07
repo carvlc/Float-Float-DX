@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BeeEnemy : MonoBehaviour
 {
@@ -44,6 +45,7 @@ public class BeeEnemy : MonoBehaviour
         {
             Debug.Log("Player Damage by Bee");
             Destroy(collision.gameObject);
+            SceneManager.LoadScene("GameOver");
         }
     }
 

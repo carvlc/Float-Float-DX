@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ParrotEnemy : MonoBehaviour
 {
@@ -25,8 +26,9 @@ public class ParrotEnemy : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            Debug.Log("Player Damage by Bee");
             Destroy(collision.gameObject);
+            SceneManager.LoadScene("GameOver");
+
         }
     }
 }
