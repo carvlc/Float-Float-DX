@@ -7,7 +7,7 @@ public class RedBallonManager : MonoBehaviour
 {
     public void AllBallonsCollected()
     {
-        if (transform.childCount == 8)
+        if (transform.childCount == 1)
         {
             if (SceneManager.GetActiveScene().name == "Level1")
             {

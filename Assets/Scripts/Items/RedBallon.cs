@@ -5,12 +5,16 @@ using UnityEngine;
 public class RedBallon : MonoBehaviour
 {
 
-    private void Start() {
+    [SerializeField] private AudioClip ballonSFX;
+    private void Start()
+    {
 
     }
-    private void OnTriggerEnter2D(Collider2D collision) {
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         if (collision.CompareTag("Player"))
         {
+            SoundBallon.Instance.PlaySoundBallon(ballonSFX);
             Puntaje.Instance.SumarTiempo();
             // se busca el bojeto padre mediante su script y se usa el metodo que controla si hay hijos (ballons) en el nivel
             FindObjectOfType<RedBallonManager>().AllBallonsCollected();

@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         speed = 5f;
-        verticalForce = 800f;
+        verticalForce = 6f;
         limitRangeX = 9f;
         isFacingRight = true;
     }
@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
 
     public void FloatFloat()
     {
-        rb2d.AddForce(transform.up * verticalForce * Time.deltaTime, ForceMode2D.Impulse);
+        rb2d.AddForce(transform.up * verticalForce, ForceMode2D.Impulse);
     }
 
     public void Flip()
