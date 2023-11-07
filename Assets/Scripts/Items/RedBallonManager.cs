@@ -7,11 +7,12 @@ public class RedBallonManager : MonoBehaviour
 {
     public void AllBallonsCollected()
     {
-        if (transform.childCount == 1)
+        if (transform.childCount == 8)
         {
             if (SceneManager.GetActiveScene().name == "Level1")
             {
-                SceneManager.LoadScene("Level2");
+                // SceneManager.LoadScene("Level2");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else
             {
