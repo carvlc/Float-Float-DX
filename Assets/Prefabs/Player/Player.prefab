@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 482ba6da39f026f48b1d7c44571b0c1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpSFX: {fileID: 8300000, guid: d28ba76016c57e24e8585c364f637abe, type: 3}
 --- !u!95 &308265769066416661
 Animator:
   serializedVersion: 5

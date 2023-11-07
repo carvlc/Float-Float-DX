@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     // se declara un atributo player
     private Player player;
+    [SerializeField] AudioClip jumpSFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
+            SoundJump.Instance.PlaySoundJump(jumpSFX);
             player.FloatFloat();
         }
     }
