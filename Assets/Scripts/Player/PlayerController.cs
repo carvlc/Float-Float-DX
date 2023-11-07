@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
         // inicializa el objeto player
         player = GetComponent<Player>();// se obtiene el componente player de este gameobject
         Puntaje.Instance.gameObject.SetActive(true);// se muestra el puntaje
-        Puntaje.Instance.ResetPuntaje();//se resetea el puntaje
     }
 
     // Update is called once per frame

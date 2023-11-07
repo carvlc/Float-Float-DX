@@ -41,6 +41,6 @@ public class Puntaje : MonoBehaviour
     }
 
     public void ResetPuntaje(){
-        tiempoActual = 30f;
+            tiempoActual = 30f;
     }
 }

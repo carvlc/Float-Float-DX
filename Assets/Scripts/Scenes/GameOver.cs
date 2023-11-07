@@ -12,6 +12,7 @@ public class GameOver : MonoBehaviour
         textMesh = GetComponentInChildren<TextMeshProUGUI>();
         textMesh.text = "Lo siento bro...";
         Puntaje.Instance.gameObject.SetActive(false);
+        Puntaje.Instance.ResetPuntaje();
     }
     public void BackToMainMenu(string levelName){
         SceneManager.LoadScene(levelName);

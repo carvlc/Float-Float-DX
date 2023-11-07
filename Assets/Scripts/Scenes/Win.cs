@@ -14,6 +14,7 @@ public class MejorTiempo : MonoBehaviour
         textMesh = GetComponentInChildren<TextMeshProUGUI>();
         textMesh.text = "Mejor Tiempo: " + mejor;
         Puntaje.Instance.gameObject.SetActive(false);
+        Puntaje.Instance.ResetPuntaje();
     }
 
     public void BackToMainMenu(string levelName){
