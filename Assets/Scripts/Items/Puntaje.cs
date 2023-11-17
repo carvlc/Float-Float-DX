@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Puntaje : MonoBehaviour
 {
@@ -33,6 +34,10 @@ public class Puntaje : MonoBehaviour
     {
         tiempoActual -= Time.deltaTime;
         Texto.text = tiempoActual.ToString("0");
+        if (tiempoActual < 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 
     public void SumarTiempo()
