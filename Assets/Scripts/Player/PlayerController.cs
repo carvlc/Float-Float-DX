@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -8,22 +10,27 @@ public class PlayerController : MonoBehaviour
     private Player player;
     [SerializeField] AudioClip jumpSFX;
     // Start is called before the first frame update
+    private PhotonView photonView;
     void Start()
     {
         // inicializa el objeto player
         player = GetComponent<Player>();// se obtiene el componente player de este gameobject
         Puntaje.Instance.gameObject.SetActive(true);// se muestra el puntaje
+        photonView = GetComponent<PhotonView>();
     }
 
     // Update is called once per frame
     void Update()
     {
         CaptureInput();
+        
     }
 
     public void CaptureInput()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
+        if (photonView.IsMine)
+        {
+            float horizontalInput = Input.GetAxis("Horizontal");
         player.Move(horizontalInput);
 
         if (Input.GetButtonDown("Jump"))
@@ -31,5 +38,7 @@ public class PlayerController : MonoBehaviour
             SoundJump.Instance.PlaySoundJump(jumpSFX);
             player.FloatFloat();
         }
+        }
+        
     }
 }

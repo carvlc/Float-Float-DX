@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using Unity.VisualScripting;
 //using UnityEditor.Tilemaps;
 using UnityEngine;
@@ -12,8 +13,10 @@ public class Player : MonoBehaviour
     private float verticalForce;
     
     Rigidbody2D rb2d;
+    private PhotonView photonView;
     private void Awake() {
         rb2d = GetComponent<Rigidbody2D>();
+        photonView = GetComponent<PhotonView>();
     }
     // Start is called before the first frame update
     void Start()
@@ -27,7 +30,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float movementX = Input.GetAxis("Horizontal");
+        if (photonView.IsMine)
+        {
+            float movementX = Input.GetAxis("Horizontal");
         if (movementX > 0 && isFacingRight)
         {
             Flip();
@@ -36,6 +41,8 @@ public class Player : MonoBehaviour
         {
             Flip();
         }
+        }
+        
     }
     public void Move(float horizontalInput)
     {
@@ -61,7 +68,19 @@ public class Player : MonoBehaviour
 
     public void Flip()
     {
-        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        if (photonView.IsMine)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         isFacingRight = !isFacingRight;
+        }
+        photonView.RPC("SyncFlip", RpcTarget.Others, isFacingRight);
+        
+    }
+    //Este método se ejecuta en los demás jugadores (RpcTarget.Others) y sincroniza la dirección de la escala local del jugador con el valor del jugador local.
+    [PunRPC]
+    void SyncFlip(bool facingRight)
+    {
+        transform.localScale = new Vector3(facingRight ? 1 : -1, transform.localScale.y, transform.localScale.z);
+        isFacingRight = facingRight;
     }
 }
