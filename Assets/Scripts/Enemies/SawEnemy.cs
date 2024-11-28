@@ -11,7 +11,15 @@ public class DamegeEnemy : MonoBehaviour
         if (collision.transform.CompareTag("Player"))
         {
             Debug.Log("Player Damage");
-            Destroy(collision.gameObject);
+            
+            if (collision.gameObject.GetComponent<PhotonView>().IsMine)
+            {
+                PhotonNetwork.Destroy(collision.gameObject); 
+            }
+
+            // cuando muere se desconecta del photonNetwork
+            PhotonNetwork.Disconnect();
+
             SceneManager.LoadScene("GameOver");
 
         }

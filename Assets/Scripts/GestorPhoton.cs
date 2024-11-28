@@ -9,12 +9,14 @@ public class GestorPhoton : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        PhotonNetwork.ConnectUsingSettings();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        if (PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.JoinLobby();
+        }
+        else
+        {
+            PhotonNetwork.ConnectUsingSettings(); // solo si on está conectado
+        }
         
     }
 
@@ -32,5 +34,15 @@ public class GestorPhoton : MonoBehaviourPunCallbacks
     {
         int randonvalue = Random.Range(0, 2) == 0 ? -6 : 6;
         PhotonNetwork.Instantiate("Player", new Vector2(randonvalue, -3), Quaternion.identity);
+    }
+
+    public void Disconect()
+    {
+        PhotonNetwork.Disconnect();
+    }
+
+    public override void OnDisconnected(DisconnectCause cause)
+    {
+        Debug.Log("Desconectado de Photon. Motivo: " + cause.ToString());
     }
 }
